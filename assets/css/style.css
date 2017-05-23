@@ -1,0 +1,86 @@
+.top-buffer {
+    margin-top:100px;
+}
+
+.body {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    border-top: medium solid #dddddd;
+}
+
+body {
+    background-image: url(../images/ep_naturalwhite.png);
+}
+
+.bottom-teal-bar {
+    background: #4aaaa5;
+    width: 100%;
+    height: 10px;
+}
+
+.h2 {
+    color: #4aaaa5;
+    text-align: left;
+    display: block;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-size: 1.5em;
+    font-family: 'Georgia';
+    font-weight: bold;
+    width: 270px;
+    height: 27px;
+}
+
+
+.footer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+
+img {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 991px) {
+    .bottom-teal-bar {
+        background: #4aaaa5;
+        width: 100%;
+        height: 4px;
+    }
+
+    .footer {
+        height: 25px;
+        line-height: 20px;
+    }
+}
+
+
+@media screen and (max-width: 777px) {
+    .navbar-brand {
+        float: none;
+        overflow: auto;
+    }
+
+    .top-buffer {
+        margin-top:200px;
+    }
+
+    .bottom-teal-bar {
+        background: #4aaaa5;
+        width: 100%;
+        height: 4px;
+    }
+
+    .footer {
+        height: 25px;
+        line-height: 20px;
+    }
+}
